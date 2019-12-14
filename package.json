@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@bazel/bazel": "1.2.0",
+    "@bazel/typescript": "0.42.3",
+    "typescript": "3.6.3"
+  },
+  "scripts": {
+    "build": "bazel build //server"
+  }
+}
